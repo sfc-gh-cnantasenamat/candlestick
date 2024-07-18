@@ -2,7 +2,6 @@ import plotly.graph_objects as go
 import pandas as pd
 from datetime import datetime
 
-
 st.title('🕯️ Candlestick chart')
 
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv')
